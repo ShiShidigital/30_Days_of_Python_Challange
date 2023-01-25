@@ -1,37 +1,39 @@
-# Log to 30 days of Python Log Text file
+# Log Progress on 30 days of Python to a choosen textfile
 import datetime
-import codecs # for utf-8
+
 
 def neuer_eintrag(file):
     d_t = datetime.datetime.now()
-    current_date_time = "{}.{}.{} - {:02}:{:02d}".format(d_t.day, d_t.month, d_t.year, d_t.hour, d_t.minute)
+    current_date_time = \
+      f"{d_t.day}.{d_t.month}.{d_t.year} - {d_t.hour:02}:{d_t.minute:02d}"
     print()
 
     print("Bitte beantworte die folgenden Fragen")
 
-    tage = input("Wieviele Tage hast Du nun die 30 Tage Python Challange geschafft? > ")
+    tage = input(
+      "Wieviele Tage hast Du nun die 30 Tage Python Challange geschafft? > ")
     projekt = input("An welchem Projekt hast Du heute gearbeitet? > ")
     genau = input("Was hast du genau gemacht? > ")
     gedanken = input("Deine Gedanken zum heutigen Tag... > ")
     mastodon = input("Hast Du einen Post auf Mastodon gemacht? (Link) > ")
     github = input("Hast Du heute etwas auf GitHub veröffentlicht? (Link) > ")
 
-
+    print()
     print("Deine Einträge werden nun in deinem Log gespeichert ...")
 
-    print("Öffne Datei {}".format(file))
-    logbook = codecs.open(file, "a", "utf-8")
+    print(f"Öffne Datei {file}")
+    logbook = open(file, mode="a", encoding="utf8")
 
     print("Schreibe Daten in die Datei ... ")
-    logbook.write("\n" + "-" * 80 + "\n")
-    logbook.write(current_date_time + "\n")
-    logbook.write("Tag: " + tage + "\n")
-    logbook.write("Projekt: " + projekt + "\n")
-    logbook.write("Heute gemacht: " + genau + "\n")
-    logbook.write("Gedanken dazu: " + gedanken + "\n")
-    logbook.write("Mastodon: " + mastodon + "\n")
-    logbook.write("GitHub: " + github + "\n")
-    logbook.write("\n" + "-" * 80 + "\n")
+    logbook.write(f"\n{'-'*80}\n")
+    logbook.write(f"{current_date_time} \n")
+    logbook.write(f"Tag: {tage} \n")
+    logbook.write(f"Projekt: {projekt} \n")
+    logbook.write(f"Heute gemacht: {genau} \n")
+    logbook.write(f"Gedanken dazu: {gedanken} \n")
+    logbook.write(f"Mastodon: {mastodon} \n")
+    logbook.write(f"GitHub: {github} \n")
+    logbook.write(f"\n{'-'*80}\n")
 
     print("Datei wird geschlossen.")
     logbook.close()
@@ -40,13 +42,14 @@ def neuer_eintrag(file):
 print()
 print("30 Tage Python Challange - Log")
 
-file="30_days_of_python_log.txt"
+file="30_days_pf_python_log.txt"
 
 while True:
     print()
     print("Menu")
     print("-" * 20)
-    print("1 - Schreibe einen neuen Eintrag in {}".format(file))
+    print(f"1 - Schreibe einen neuen Eintrag in {file}")
+    print("2 - Bestimme die Textdatei, in die Du schreiben möchtest.")
     print("0 - Program beenden")
 
     print()
@@ -57,9 +60,28 @@ while True:
         quit()
 
     elif user_input == 1:
-        print("Öffne '{}' und schreibe einen neuen Eintrag.".format(file))
+        print(f"Öffne '{file}' und schreibe einen neuen Eintrag.")
         neuer_eintrag(file)
-        print("Neuer Eintrag wurde in {} eingetragen.".format(file))
+        print(f"Neuer Eintrag wurde in {file} eingetragen.")
+
+    elif user_input == 2:
+        print("""
+Gib den Namen der Textdatei ein, in welche Du schreiben möchtest. 
+Wenn die Datei noch nicht existiert, dann wird eine neue Textdatei 
+angelegt. Wenn die Textdatei existiert, werden neue Einträge dem 
+vorhandenen Text am Ende hinzugefügt.
+            """)
         
+        while True:
+            user_input = input("Textdatei Name > ")  # Nicht sicher! Texteingabe prüfen!
+            
+            if user_input.startswith("."):           # Besser mit Regex und Exceptions
+                print("Das ist nicht erlaubt!!!")
+                continue
+
+            else: 
+                file = user_input + ".txt"  
+                break
+            
     else:
         print("Keine valide Eingabe. Wähle einen Menüpunkt!")
