@@ -20,3 +20,7 @@ Meine 30 Tage Python Challange
 - Ich muss täglich in einem Log aufschreiben, was ich gemacht habe.
 - Ich muss jeden Tag darüber auf Mastodon posten, am besten mit Screenshot. #30TagePythonChallange #Python
 - Ich muss meine Projekte auf GitHub veröffentlichen.
+
+
+### Projects:
+- Simple Music Player
