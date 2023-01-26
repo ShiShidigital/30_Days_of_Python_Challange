@@ -2,7 +2,7 @@
 
 Start: 24.01.2023
 Ende:
-Tage geschafft: 2
+Tage geschafft: 3
 
 ------------------------------------------------------------------
 
@@ -25,5 +25,16 @@ Heute gemacht: codecs war überflüssig, f'strings benutzt, für bessere Lesbark
 Gedanken dazu: Habe einiges neues gelernt, muss nochmal in Regex reinschauen morgen, um User-Eingabe zu testen 
 Mastodon: https://troet.cafe/@Shi/109749905825497570 
 GitHub: habe log.py geupdated 
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+26.1.2023 - 13:16 
+Tag: 3 
+Projekt: Music Player 
+Heute gemacht: Konsolen Programm zum abspielen von Musik geschrieben, Play, Stop, Pause und Unpause Funktionen erstellt, Informationen zusammen gesammelt 
+Gedanken dazu: Ich habe ein erstes kleines funktionierendes Program das Musik abspielt. 
+Mastodon: https://troet.cafe/@Shi/109755327153892323 
+GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange/tree/main/music_player 
 
 --------------------------------------------------------------------------------
