@@ -15,8 +15,9 @@ start playing.
 unpause function.
 
 Todo next:
- - Info on length of the song.
- - Make it show how long the song is playing with a timer.
+ - Info on length of the song. With Mutagen. Still not correct time.
+ - Make it show how long the song is playing with a timer. Only manually updates as of now.
+
  - Let user choose a music file to play.
  
  - Have a song list, that plays one song after the other.
