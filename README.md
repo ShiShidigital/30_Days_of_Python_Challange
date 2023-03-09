@@ -7,7 +7,7 @@ My 30 Days of Python Challange
 - Online Courses, learning plattforms, etc. only count when it helps these projects.
 - Keep a log, where you post about the progress every day.
 - Post on Mastodon about the progress.
-- Publish the projects on GitHub.
+- Publish the projects on GitHub, use Git to learn this as well.
 
 
 # 30 Tage Python Challange

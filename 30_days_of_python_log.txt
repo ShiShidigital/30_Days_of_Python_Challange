@@ -1,51 +1,9 @@
 ***** 30 Days of Python Challange Log *****
 
-Start: 24.01.2023
+Start: 09.04.2023
 Ende:
-Tage geschafft: 4
+Tage geschafft: 0
 
 ------------------------------------------------------------------
 
---------------------------------------------------------------------------------
-24.1.2023 - 15:42
-Tag: 1
-Projekt: Programm zum loggen der Einträge für diese Challange.
-Heute gemacht: Python Code geschrieben, habe mich an einem Programm orientiert das ich vorher gemacht hatte, GitHub Repository angelegt
-Gedanken dazu: Gut das ich angefangen habe
-Mastodon: https://troet.cafe/@Shi/109744689451001622
-GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange
 
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-25.1.2023 - 13:48 
-Tag: 2 
-Projekt: log.py verbessert 
-Heute gemacht: codecs war überflüssig, f'strings benutzt, für bessere Lesbarkeit gesorgt durch max. 80 Zeichen pro Zeile, man kann jetzt Dateinamen ändern, dadurch neues Log erstellen.  
-Gedanken dazu: Habe einiges neues gelernt, muss nochmal in Regex reinschauen morgen, um User-Eingabe zu testen 
-Mastodon: https://troet.cafe/@Shi/109749905825497570 
-GitHub: habe log.py geupdated 
-
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-26.1.2023 - 13:16 
-Tag: 3 
-Projekt: Music Player 
-Heute gemacht: Konsolen Programm zum abspielen von Musik geschrieben, Play, Stop, Pause und Unpause Funktionen erstellt, Informationen zusammen gesammelt 
-Gedanken dazu: Ich habe ein erstes kleines funktionierendes Program das Musik abspielt. 
-Mastodon: https://troet.cafe/@Shi/109755327153892323 
-GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange/tree/main/music_player 
-
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-27.1.2023 - 13:57 
-Tag: 4 
-Projekt: Music Player 
-Heute gemacht: mittels Mutagen Länge des MP3 Lieds herausbekommen und anzeigen, Update Funktion um aktuelle Zeit im Lied anzuzeigen erstellt 
-Gedanken dazu: manchmal hängt man an so kleinen Sachen fest. Ich hatte gedacht es wird einfach, aber es ist komplizierter. Um den Timer automatisch laufen zu lassen, muss ich mich wohl mit Threading beschäftigen. 
-Mastodon: https://troet.cafe/@Shi/109761246710745942 
-GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange/blob/main/music_player/music_player.py 
-
---------------------------------------------------------------------------------
