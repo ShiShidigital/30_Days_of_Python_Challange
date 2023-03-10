@@ -23,4 +23,4 @@ Meine 30 Tage Python Challange
 
 
 ### Projects:
-- Simple Music Player
+- Guess the Number Game

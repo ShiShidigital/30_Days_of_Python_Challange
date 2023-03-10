@@ -1,9 +1,18 @@
 ***** 30 Days of Python Challange Log *****
 
-Start: 09.04.2023
+Start: 10.03.2023
 Ende:
 Tage geschafft: 0
 
 ------------------------------------------------------------------
 
+--------------------------------------------------------------------------------
+10.3.2023 - 12:21 
+Tag: 1 
+Projekt: Guess the Number Game 
+Heute gemacht: Das Konzept für das Programm entworfen und danach zwei Funktionen dafür geschrieben. Als einfaches CommandLine Programm funktioniert es. 
+Gedanken dazu: Ein einfaches Programm gewählt zur Wiederholung von Basics in Python und Git. 
+Mastodon: https://troet.cafe/@Shi/109999017516904422 
+GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange 
 
+--------------------------------------------------------------------------------
