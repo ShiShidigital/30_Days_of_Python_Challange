@@ -23,4 +23,8 @@ Meine 30 Tage Python Challange
 
 
 ### Projects:
+<<<<<<< HEAD
 - Guess the Number Game
+=======
+- Guess The Number Game
+>>>>>>> 8f96f4e3bfa34e66b2d06ba3708a63dc98a29b22
