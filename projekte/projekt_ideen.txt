@@ -1,0 +1,6 @@
+Kleine Python Projekte:
+
+- Musik Player weitermachen
+- Karteikartenprogramm zum lernen
+- Password generator
+- Guess the Number game (computer vs human) with GUI

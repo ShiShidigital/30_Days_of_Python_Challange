@@ -1,0 +1,23 @@
+- Guess the Number game (computer vs human) with GUI
+
+End Program:
+- GUI Program where you can play a Guess the Number Game against
+the computer in 2 Rounds. First Round the User must guess a
+number the computer chooses, in the second round the computer
+must guess a number the player chooses. Who finds the number
+in less guesses wins the game.
+
+
+Steps:
+- write function for the user round
+- write function for the computer round
+- write a command line program with all the functionality
+- use Tkinter to build a GUI for this program
+- finished program, with error handling, good GUI
+
+Extras:
+- Highscore List
+- play multiple rounds
+- Option to play local against another player
+- Option to restrict guesses
+- Option to Choose highest number (and lowest number)
