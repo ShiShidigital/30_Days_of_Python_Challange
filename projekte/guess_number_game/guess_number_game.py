@@ -1,6 +1,7 @@
 # Guess the number game
 import random
 
+# Functions
 def user_round():
     print()
     print("The computer chooses a secret number between 1 and 100 ...")
@@ -9,8 +10,14 @@ def user_round():
     guess = 0
 
     while guess != computer_number:
-        guess = int(input("Try to guess the number? > "))
+        user_input = input("Try to guess the number? > ")
         guesses += 1
+
+        try:
+            guess = int(user_input)
+        except:
+            print("Only number input, please.")
+
 
         if guess > computer_number:
             print("Your number is to high!")
@@ -27,7 +34,7 @@ def computer_round():
     print("Now think of a number between 0 and 100 the computer needs to guess... Press any key when you are ready. ")
     input()
 
-    print("The computer will try to guess the secret number now. You can tell it if it guessed too 'l'ow or too 'h'igh or if it is 'c'orrect. 0 to get out of here. ")
+    print("The computer will try to guess the secret number now. You can tell it if it guessed too 'l'ow or too 'h'igh or if it is 'c'orrect. 0 to quit the Program. ")
     guess = 0
     guesses = 0
 
@@ -36,26 +43,27 @@ def computer_round():
 
     while True:
         guess = random.randint(low, high)
-        guesses += 1
 
         user_input = input(f"Computer guess: {guess} | Is this correct?(l,h,c or 0) > ")
 
         if user_input == 'l':
+            guesses += 1
             print("Computer guessed too low.")
             low = guess + 1
         elif user_input == 'h':
+            guesses += 1
             print("Computer guessed too high.")
             high = guess - 1
         elif user_input == 'c':
+            guesses += 1
             print("Computer guessed correct.")
             print(f"Number of guesses: {guesses}")
             return guesses
         elif user_input == '0':
             print("Out of here")
-            break
+            quit()
         else:
             print("Invalid input.")
-
 
 
 

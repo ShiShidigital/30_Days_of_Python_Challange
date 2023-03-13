@@ -11,7 +11,7 @@ My 30 Days of Python Challange
 
 
 # 30 Tage Python Challange
-Meine 30 Tage Python Challange 
+Meine 30 Tage Python Challange
 
 ### Regeln:
 - Ich muss 30 Tage lang, an jedem Tag mindestens 1 Stunde mit Python Code arbeiten
@@ -23,8 +23,4 @@ Meine 30 Tage Python Challange
 
 
 ### Projects:
-<<<<<<< HEAD
-- Guess the Number Game
-=======
 - Guess The Number Game
->>>>>>> 8f96f4e3bfa34e66b2d06ba3708a63dc98a29b22
