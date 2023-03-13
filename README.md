@@ -23,4 +23,4 @@ Meine 30 Tage Python Challange
 
 
 ### Projects:
-- Guess The Number Game
+- Guess the Number Game
