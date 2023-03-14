@@ -2,7 +2,7 @@
 
 Start: 10.03.2023
 Ende: 12.04.2023
-Tage geschafft: 2
+Tage geschafft: 3
 
 ------------------------------------------------------------------
 
@@ -24,6 +24,17 @@ Projekt: Guess The Number Game GUI
 Heute gemacht: Vor allem mich mit Tkinter mehr vertraut gemacht
 Gedanken dazu: Weitermachen, auch wenn der Anfang nicht so geglückt ist. Merke: Keine Challange vor dem Wochenende starten.
 Mastodon: https://troet.cafe/@Shi/110016334947773177
+GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange/tree/main/projekte/guess_number_game
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+14.3.2023 - 13:28
+Tag: 3
+Projekt: Guess the Number Game mit Tkinter GUI
+Heute gemacht: Mich vor allem mit .grid beschäftigt und das Layout angepasst
+Gedanken dazu: Heute war trial & error angesagt, wie so oft beim Layout basteln. Fummelarbeit
+Mastodon: https://troet.cafe/@Shi/110021925522668565
 GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange/tree/main/projekte/guess_number_game
 
 --------------------------------------------------------------------------------
