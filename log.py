@@ -42,7 +42,7 @@ def neuer_eintrag(file):
 print()
 print("30 Tage Python Challange - Log")
 
-file="30_days_pf_python_log.txt"
+file="30_days_of_python_log.txt"
 
 while True:
     print()
@@ -66,22 +66,22 @@ while True:
 
     elif user_input == 2:
         print("""
-Gib den Namen der Textdatei ein, in welche Du schreiben möchtest. 
-Wenn die Datei noch nicht existiert, dann wird eine neue Textdatei 
-angelegt. Wenn die Textdatei existiert, werden neue Einträge dem 
+Gib den Namen der Textdatei ein, in welche Du schreiben möchtest.
+Wenn die Datei noch nicht existiert, dann wird eine neue Textdatei
+angelegt. Wenn die Textdatei existiert, werden neue Einträge dem
 vorhandenen Text am Ende hinzugefügt.
             """)
-        
+
         while True:
             user_input = input("Textdatei Name > ")  # Nicht sicher! Texteingabe prüfen!
-            
+
             if user_input.startswith("."):           # Besser mit Regex und Exceptions
                 print("Das ist nicht erlaubt!!!")
                 continue
 
-            else: 
-                file = user_input + ".txt"  
+            else:
+                file = user_input + ".txt"
                 break
-            
+
     else:
         print("Keine valide Eingabe. Wähle einen Menüpunkt!")
