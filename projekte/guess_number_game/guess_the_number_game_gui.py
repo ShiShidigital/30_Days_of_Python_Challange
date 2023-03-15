@@ -25,7 +25,7 @@ title_lbl.pack(padx=5, pady=2)
 # Central Frame with Buttons
 central_frm = tk.Frame(
     master=window,
-    width=100)
+    width=200)
 central_frm.grid(row=1, column=1)
 
 start_btn = tk.Button(
@@ -37,14 +37,16 @@ start_btn = tk.Button(
     fg="#fff",
     borderwidth=4,
     relief=tk.RAISED)
-start_btn.pack(padx=2, pady=2)
+start_btn.pack(padx=2, pady=2, fill='both')
 
 log_lbl = tk.Label(
     master=central_frm,
     text="Log",
-    width=20,
-    height=5)
-log_lbl.pack(padx=2, pady=2)
+    width=50,
+    height=10,
+    borderwidth=4,
+    relief=tk.SUNKEN)
+log_lbl.pack(padx=2, pady=2, side="bottom", fill="both")
 
 # Player Frame with Player Input/Display
 player_frm = tk.Frame(

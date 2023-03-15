@@ -2,7 +2,7 @@
 
 Start: 10.03.2023
 Ende: 12.04.2023
-Tage geschafft: 3
+Tage geschafft: 4
 
 ------------------------------------------------------------------
 
@@ -36,5 +36,16 @@ Heute gemacht: Mich vor allem mit .grid beschäftigt und das Layout angepasst
 Gedanken dazu: Heute war trial & error angesagt, wie so oft beim Layout basteln. Fummelarbeit
 Mastodon: https://troet.cafe/@Shi/110021925522668565
 GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange/tree/main/projekte/guess_number_game
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+15.3.2023 - 14:09 
+Tag: 4 
+Projekt: Guess the Number Game 
+Heute gemacht: Gelernt wie man Event Handler in Tkinter nutzt. 
+Gedanken dazu: Ich werde mich morgen wohl weiter mit lernen beschäftigen, damit ich verstehe, was ich in Tkinter mache. 
+Mastodon: https://troet.cafe/@Shi/110027741786367086 
+GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange 
 
 --------------------------------------------------------------------------------
