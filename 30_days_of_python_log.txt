@@ -2,7 +2,7 @@
 
 Start: 10.03.2023
 Ende: 12.04.2023
-Tage geschafft: 4
+Tage geschafft: 5
 
 ------------------------------------------------------------------
 
@@ -47,5 +47,16 @@ Heute gemacht: Gelernt wie man Event Handler in Tkinter nutzt.
 Gedanken dazu: Ich werde mich morgen wohl weiter mit lernen beschäftigen, damit ich verstehe, was ich in Tkinter mache. 
 Mastodon: https://troet.cafe/@Shi/110027741786367086 
 GitHub: https://github.com/ShiShidigital/30_Days_of_Python_Challange 
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+16.3.2023 - 17:02 
+Tag: 5 
+Projekt: Guess the Number Game GUI 
+Heute gemacht: Ein Log in das Spiel eingebaut, play Funktion geschrieben 
+Gedanken dazu: wieder was gelernt 
+Mastodon: https://troet.cafe/@Shi/110034055443419108 
+GitHub: ja, wie gestern 
 
 --------------------------------------------------------------------------------
