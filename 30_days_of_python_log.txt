@@ -60,3 +60,14 @@ Mastodon: https://troet.cafe/@Shi/110034055443419108
 GitHub: ja, wie gestern 
 
 --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+17.3.2023 - 21:44 
+Tag: 6 
+Projekt: Guess the Number Game GUI 
+Heute gemacht: An den Funktionen rumgeschrieben 
+Gedanken dazu: Heute hat nicht alles geklappt. 
+Mastodon: ja 
+GitHub: ja 
+
+--------------------------------------------------------------------------------
